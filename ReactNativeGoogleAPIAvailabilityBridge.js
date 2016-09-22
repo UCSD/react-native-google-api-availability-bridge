@@ -18,7 +18,7 @@ class ReactNativeGoogleAPIAvailabilityBridge {
 	}
 
 	openGooglePlayUpdate() {
-		return GoogleAPIAvailability.openPlayStore();
+		return GoogleAPIAvailability.openGooglePlayUpdate();
 	}
 }
 
