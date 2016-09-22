@@ -10,6 +10,24 @@ react-native link
 
 Requires >= 0.32 RN
 
+##Usage
+```
+GoogleAPIAvailability.checkGooglePlayServices((result) => {
+	if(result === 'update') {
+		GoogleAPIAvailability.promptGooglePlayUpdate(false);
+	}
+});
+```
+
+```
+<View>
+	<Text>Please update Google Play Services to view map</Text>
+	<TouchableHighlight onPress={() => GoogleAPIAvailability.openGooglePlayUpdate()}>
+		<Text>Update</Text>
+	</TouchableHighlight>
+</View>
+```
+
 ###Methods
 | Method Name | Arguments | Notes
 |---|---|---|
