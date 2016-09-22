@@ -12,7 +12,7 @@ Requires >= 0.32 RN
 
 ##Usage
 ```js
-const GoogleAPIAvailability = 	require('react-native-google-api-availability-bridge');
+const GoogleAPIAvailability = require('react-native-google-api-availability-bridge');
 
 GoogleAPIAvailability.checkGooglePlayServices((result) => {
 	if(result === 'update') {
