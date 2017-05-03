@@ -1,4 +1,4 @@
-# React Native Google API Availability Bridge
+# React Native Google API Availability Bridge [![npm version](https://badge.fury.io/js/react-native-google-api-availability-bridge.svg)](https://badge.fury.io/js/react-native-google-api-availability-bridge)
 Check if user has google play services installed + updated from React Native, Android only
 <https://developers.google.com/android/reference/com/google/android/gms/common/GoogleApiAvailability.html>
 
