@@ -8,7 +8,7 @@ npm install --save react-native-google-api-availability-bridge
 react-native link
 ```
 
-Requires >= 0.32 RN
+Requires React Native >= 0.47
 
 ## Usage
 ```js
